@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+  pointer-events: none;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background: #000000;
+}
+
+#canvas {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+}
